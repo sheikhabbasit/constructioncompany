@@ -1,0 +1,252 @@
+/* Body */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  /* text-align: center; */
+}
+
+
+
+/* Header */
+.title-section {
+  background-image: linear-gradient(to right, #090909, #262424);
+}
+
+/* Heading texts */
+
+.titleHeading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  background: -webkit-linear-gradient(#982453, #380452);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/* Padding For Sections */
+
+
+.universal-padding {
+  padding: 3% 10% 7% 10%;
+
+}
+
+.containerBoxPadding{
+  padding: 4% 2% 3%;
+}
+
+.padtop{
+  padding-top: 2%;
+}
+.padbottom{
+  padding-bottom: 5%;
+}
+
+
+
+
+
+/* Navbar */
+
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.orgName {
+  color: #FFF8D9;
+}
+
+.navLinkColor {
+  color: #FFF8D9;
+}
+.nav-item:hover{
+  background: -webkit-linear-gradient(#925B92, #982453);
+  border-radius: 5%;
+}
+
+.dropdownColor {
+  background-color: #FFF8D9;
+  border-radius: 20%;
+  padding: 10%;
+}
+
+.dropdown-item:hover {
+  background: -webkit-linear-gradient(#925B92, #982453);
+  border-radius: 5%;
+  color: #FFF8D9;
+}
+
+
+
+
+
+
+
+
+/* Title Section */
+
+
+h1.titleHeading{
+  width: 70%;
+  position: relative;
+  top: 10px;
+  /* margin: 0 auto 0 auto; */
+}
+.titleImgAlign {
+  text-align: center;
+  position: relative;
+}
+
+.titleImage {
+  width: 50%;
+  border-radius: 10%;
+  position: relative;
+  bottom: 20px;
+}
+
+
+
+
+
+
+/* Why choose us? ///// Features */
+
+
+#whyChooseUs{
+  background-image: linear-gradient(to right, #262424, #090909);
+}
+
+.titleHeading.sectionheader{
+  text-align: center;
+}
+
+.card{
+  background: none;
+  border: none;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.featureImages{
+  width: 40%;
+  margin: 0 auto 0 auto;
+}
+.card-text{
+  color:  #FFF8D9;
+}
+
+
+
+/* Our Projects Section */
+#ourProjects{
+  background-image: linear-gradient(to right, #090909, #262424 );
+  height: 850px;
+}
+.projectList{
+  color: white;
+  background-color: #262424;
+}
+.projectList:hover{
+  color: white;
+  background: -webkit-linear-gradient(#925B92, #982453);
+}
+.carousel-inner{
+  /* width:100%; */
+}
+
+
+
+
+
+/* Contact Us Section */
+
+
+
+#contactUs{
+  background-image: linear-gradient(to right, #262424, #090909 );
+  text-align: center;
+}
+.btnMargin{
+  margin: 0;
+}
+.contactUsLabels{
+  color: white;
+}
+
+/* copyright Section */
+
+.copyright{
+  text-align: center;
+  background-image: linear-gradient(to right, #262424, #090909 );
+  margin-bottom: 0;
+}
+.p-text{
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+
+
+
+/* Mediaquery Breakpoints */
+
+
+
+@media (max-width:1088px) {
+  .dropdownColor {
+    border-radius: 0;
+  }
+
+  h1.titleHeading {
+    margin: 0 auto 0 auto;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .titleHeading.sectionheader{
+    font-size: 2.5rem;
+  }
+}
+
+
+@media (max-width:991px){
+  .dropdownColor{
+    background-color: #FFF8D9;
+    border-radius: 0;
+    padding: 0;
+    }
+  .dropdown-item:hover {
+    background-color: #262424;
+    border-radius: 0;
+    color: #FFF8D9;
+    }
+  .nav-item:hover{
+    border-radius: 0;
+  }
+  #ourProjects{
+    height: 600px;
+  }
+}
+
+
+@media (max-width:952px) {
+  .titleImage {
+    position: relative;
+    top: 15px;
+    height: 150px;
+    width: 150px;
+  }
+  .card{
+    padding-top: 50px;
+  }
+  #ourProjects{
+    height: 400px;
+  }
+  .carousel-inner{
+    height: 220px;
+  }
+}
